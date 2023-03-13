@@ -1,0 +1,15 @@
+class Solution:  
+    def twoSum(para1, para2):
+        pair = [];
+        for i in range(len(para1)):
+            for j in range(len(para1)):
+              if(para1[i] + para1[j] == para2):
+                      value = para1.index(para1[i])
+                      pair.append(value);
+        print(pair);
+
+
+    nums = [2,7,11,15]
+    target = 9
+    twoSum(nums,target)
+Solution()
